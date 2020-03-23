@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #b3d1ff;
+}
+
+header {
+    /* background-image: url(images/main.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.nav {
+
+    z-index: 999;
+    color: white;
+}
+
+.nav a {
+
+    color: white;
+    font-weight: 500;
+    font-family: Fira Sans;
+}
+
+.mission-header {
+    color: white;
+
+}
+
+.carousel1 {
+    margin: -90px;
+}
+
+footer {
+    background-color: rgb(39, 109, 196);
+    ;
+}
+
+.foot li {
+    list-style: none;
+}
+
+.foot li a {
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+
+.foot h6 {
+    color: white;
+}
+
+.foot hr {
+    background-color: white;
+}
+
+.foot p {
+    color: white;
+    font-size: smaller;
+}
