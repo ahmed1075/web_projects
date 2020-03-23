@@ -18,7 +18,7 @@
             <header>
         <div class="container-fluid col-md-12">
             <nav class=" navbar navbar-expand-lg nav mx-5" style="background-color:#212529 ">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/logo1.png" style="height:60px;width: auto">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -167,10 +167,10 @@
 					<h6>Site Map</h6>
 					<hr>
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Our Imapact</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="ourinspect.php">Our Imapact</a></li>
 						<li><a href="#">News</a></li>
-						<li><a href="#">About Us</a></li>
+						<li><a href="index.html">About Us</a></li>
 					</ul>
 				</div>
 				<div class="col-4 foot  mt-3">
@@ -179,7 +179,7 @@
 					<h6>Follow Us </h6>
 					<hr>
 					<p>Follow us on social media for all out latest news, updates and event information</p>
-					<a href="#"><img src="images/facebook.png" style="height: 30px"></a>
+					<a href="https://www.facebook.com/SchoolProvement"><img src="images/facebook.png" style="height: 30px"></a>
 				</div>
 				<div class="col-4 foot my-3">
 					<h6>Contact Us </h6>
