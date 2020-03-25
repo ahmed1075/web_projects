@@ -1,8 +1,8 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    /* background-color: #b3d1ff; */
-}
+/* body {
+    /* margin: 0px;
+    padding: 0px; */
+/* background-color: #b3d1ff; 
+} */
 
 /* 
 header {
@@ -13,7 +13,7 @@ header {
 
 */
 .my-carousol {
-    margin-top: -90px;
+    margin-top: -310px;
     margin-left: -15px;
     margin-right: -15px;
 }
@@ -29,6 +29,7 @@ header {
     font-size: 25px;
     list-style: none;
     text-shadow: bisque;
+    font-family: Gotu;
 }
 
 .main1 h2 {
@@ -46,7 +47,8 @@ header {
 
     color: white;
     font-weight: 500;
-    font-family: Fira Sans;
+    font-family: Concert One;
+    font-size: 110%;
 }
 
 .mission-header {
@@ -194,6 +196,10 @@ footer {
     ;
 }
 
+.improve h3 {
+    font-family: Lobster;
+}
+
 .improve ul {
     margin-top: 30px;
 }
@@ -222,4 +228,8 @@ footer {
 
 .count h2 {
     color: white;
+}
+
+#demo {
+    position: static;
 }

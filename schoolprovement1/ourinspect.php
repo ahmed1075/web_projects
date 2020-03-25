@@ -24,7 +24,7 @@
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa fa-bars"></span>
+                        <span class="fa fa-bars" style="background-color: white"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="  navbar-nav ">
@@ -50,7 +50,7 @@
                 <div id="demo" class="carousel slide my-carousol" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/img2.jpg" alt="Los Angeles" width="100%" height="300">
+                            <img src="images/img2.jpg" alt="Los Angeles" width="100%" height="500">
                             <div class="carousel-caption" >
                                 <hr style="background-color:white;width: 150px;height: 5px;">
                                 <h1 style="color: white">OUR IMPACT</h1>
