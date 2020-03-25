@@ -20,7 +20,7 @@
 
                 <nav class=" navbar navbar-expand-lg nav mx-5">
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo1.png" alt="" height="60px" width="auto">
+                        <img src="images/logo1.png" alt="" height="80px" width="auto">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
