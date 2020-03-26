@@ -102,23 +102,16 @@ header {
 .nav a {
 
     color: white;
-    /*font-weight: 900;*/
-    font-family: Gimbal Egyptian Font Family;
-    font-size: 18px;
+    font-weight: 900;
+    font-family: Cambria;
+    font-size: 15px;
     text-decoration: none;
-    margin-left: 15px;
-    margin-right: 15px;
-    position: static;
 }
 
-
-
-.nav .nav-link span:hover {
-    background-color: rgb(39, 109, 196);
-    border-radius: 5px;
-    margin: 0px;
+.nav .nav-link:hover {
+    background-color: green;
+    border-radius: 8px;
     color: white;
-    position: static;
 }
 
 .mission-header {

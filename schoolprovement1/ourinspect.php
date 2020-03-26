@@ -41,7 +41,7 @@
                                 <a class="nav-link" href="blog_news.php">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-fancyscroll="data-fancyscroll" href="index.html #about">About Us</a>
+                                <a class="nav-link" data-fancyscroll="data-fancyscroll" href="index.html#about">About Us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><span class="fa fa-user"> Login</span></a>
@@ -185,7 +185,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="ourinspect.php">Our Imapact</a></li>
                             <li><a href="blog_news.php">News</a></li>
-                            <li><a href="index.html #about">About Us</a></li>
+                            <li><a href="index.html#about">About Us</a></li>
                         </ul>
                     </div>
                     <div class="col-4 foot  mt-3">
