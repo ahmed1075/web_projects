@@ -136,9 +136,8 @@
                                 <!-- <label>Full Name</label> -->
                                 <input type="email" class="form-control" placeholder="Email" required>
                             </div>
-                            <input type="submit" value="Submit" class="btn btn-primary">
+                                <input type="submit" value="Submit" class="btn btn-primary">
                         </form>
-
                     </div>
 
                 </div>
