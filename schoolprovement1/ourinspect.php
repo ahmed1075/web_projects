@@ -15,6 +15,9 @@
 
     </head>
     <body>
+    <div id="loader_bg" class="loader_bg">
+		<div class="loader"></div>
+	</div>
         <header>
             <div class="container-fluid">
 
@@ -38,7 +41,7 @@
                                 <a class="nav-link" href="blog_news.php">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-fancyscroll="data-fancyscroll" href="#about">About Us</a>
+                                <a class="nav-link" data-fancyscroll="data-fancyscroll" href="index.html #about">About Us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><span class="fa fa-user"> Login</span></a>
@@ -181,8 +184,8 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="ourinspect.php">Our Imapact</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="index.html">About Us</a></li>
+                            <li><a href="blog_news.php">News</a></li>
+                            <li><a href="index.html #about">About Us</a></li>
                         </ul>
                     </div>
                     <div class="col-4 foot  mt-3">
@@ -226,5 +229,14 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+      document.onreadystatechange = function () {
+			setTimeout(function () {
+				document.getElementById('loader_bg').style.visibility = "hidden";
+			}, 2000);
+
+		}
+
+  </script>
     </body>
 </html>

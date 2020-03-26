@@ -12,6 +12,62 @@ header {
 }
 
 */
+
+.loader_bg {
+    position: fixed;
+    z-index: 999999;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+.loader {
+    border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+
+.loader:before,
+.loader:after {
+    content: '';
+    border: 1em solid rgb(39, 109, 196);
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+
+
+}
+
+.loader:before {
+    animation-delay: .5s;
+}
+
+@keyframes loader {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+
+
+}
+
 .my-carousol {
     margin-top: -310px;
     margin-left: -15px;
@@ -46,9 +102,23 @@ header {
 .nav a {
 
     color: white;
-    font-weight: 500;
-    font-family: Concert One;
-    font-size: 110%;
+    /*font-weight: 900;*/
+    font-family: Gimbal Egyptian Font Family;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: static;
+}
+
+
+
+.nav .nav-link span:hover {
+    background-color: rgb(39, 109, 196);
+    border-radius: 5px;
+    margin: 0px;
+    color: white;
+    position: static;
 }
 
 .mission-header {
@@ -56,6 +126,9 @@ header {
 
 }
 
+.counter {
+    font-family: Jersey M54 Font;
+}
 
 footer {
     background-color: rgb(39, 109, 196);
@@ -64,8 +137,38 @@ footer {
 
 }
 
+.flip-box p {
+    font-family: Yorkten Slab;
+}
+
+h1 {
+    font-style: Sitka;
+}
+
+.clock p {
+    font-family: Yorkten Slab;
+}
+
 .foot li {
     list-style: none;
+}
+
+.flip-card p {
+
+    font-family: Yorkten Slab;
+
+}
+
+.flip-card li {
+
+    font-family: Yorkten Slab;
+
+}
+
+a {
+
+    font-family: Yorkten Slab;
+
 }
 
 .foot li a {

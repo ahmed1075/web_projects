@@ -14,6 +14,9 @@
     </head>
 
     <body>
+    <div id="loader_bg" class="loader_bg">
+		<div class="loader"></div>
+	</div>
         <header>
             <div class="container-fluid">
 
@@ -37,7 +40,7 @@
                                 <a class="nav-link" href="blog_news.php">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-fancyscroll="data-fancyscroll" href="#about">About Us</a>
+                                <a class="nav-link" data-fancyscroll="data-fancyscroll" href="index.html #about">About Us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><span class="fa fa-user"> Login</span></a>
@@ -107,8 +110,8 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="ourinspect.php">Our Imapact</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#about">About Us</a></li>
+                            <li><a href="blog_news.php">News</a></li>
+                            <li><a href="index.html #about">About Us</a></li>
                         </ul>
                     </div>
                     <div class="col-4 foot  mt-3">
@@ -178,6 +181,15 @@
                         delay: 10,
                         time: 1000
                     });
+
+
+                    document.onreadystatechange = function () {
+			setTimeout(function () {
+				document.getElementById('loader_bg').style.visibility = "hidden";
+			}, 2000);
+
+		}
+
         </script>
 
     </body>
