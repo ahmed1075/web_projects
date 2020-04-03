@@ -1,0 +1,36 @@
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leadsdev/public_html/minhaj/index.php on line 2
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 123
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 124
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 125
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 131
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 164
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 165
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 166
+[07-Dec-2019 19:05:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 179
+[09-Jan-2020 06:58:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/leadsdev/public_html/minhaj/data.php on line 3
+[09-Jan-2020 06:58:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/core/header.html:1) in /home/leadsdev/public_html/minhaj/data.php on line 56
+[09-Jan-2020 06:59:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/core/header.html:1) in /home/leadsdev/public_html/minhaj/data.php on line 56
+[09-Jan-2020 17:09:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/leadsdev/public_html/minhaj/abstract.php on line 3
+[09-Jan-2020 17:09:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/core/header.html:1) in /home/leadsdev/public_html/minhaj/abstract.php on line 65
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leadsdev/public_html/minhaj/index.php on line 2
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 3
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 4
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 126
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 127
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 128
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 134
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 169
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 170
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 171
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 184
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 230
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 231
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 233
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 234
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/index.php on line 237
+[10-Jan-2020 14:54:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/index.php on line 238
+[10-Jan-2020 17:51:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/core/header.html:1) in /home/leadsdev/public_html/minhaj/abstract.php on line 65
+[11-Jan-2020 08:15:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/core/header.html:1) in /home/leadsdev/public_html/minhaj/studash.php on line 100
+[11-Jan-2020 08:24:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/core/header.html:1) in /home/leadsdev/public_html/minhaj/studash.php on line 100
+[15-Jan-2020 11:55:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/core/header.html:1) in /home/leadsdev/public_html/minhaj/studash.php on line 100
+[22-Jan-2020 10:06:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/core/header.html:1) in /home/leadsdev/public_html/minhaj/studash.php on line 100

@@ -1,0 +1,25 @@
+[09-Jan-2020 07:02:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/leadsdev/public_html/minhaj/reviewer/process.php:11) in /home/leadsdev/public_html/minhaj/reviewer/process.php on line 17
+[09-Jan-2020 08:30:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 52
+[09-Jan-2020 08:30:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 83
+[09-Jan-2020 08:30:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 52
+[09-Jan-2020 08:30:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 83
+[11-Jan-2020 07:51:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/full.php on line 59
+[11-Jan-2020 08:16:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/leadsdev/public_html/minhaj/reviewer/process.php on line 9
+[11-Jan-2020 08:16:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/leadsdev/public_html/minhaj/reviewer/process.php on line 10
+[11-Jan-2020 08:19:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 52
+[11-Jan-2020 08:19:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 83
+[11-Jan-2020 08:19:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 52
+[11-Jan-2020 08:19:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 83
+[11-Jan-2020 08:20:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 52
+[11-Jan-2020 08:20:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 83
+[20-Jan-2020 06:20:09 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/leadsdev/public_html/minhaj/reviewer/process.php on line 3
+[20-Jan-2020 06:20:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/leadsdev/public_html/minhaj/reviewer/process.php on line 8
+[20-Jan-2020 06:20:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/process.php on line 9
+[20-Jan-2020 06:20:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/process.php on line 10
+[21-Jan-2020 05:18:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 52
+[21-Jan-2020 05:18:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 83
+[21-Jan-2020 05:18:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/abstract.php on line 59
+[21-Jan-2020 05:18:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 52
+[21-Jan-2020 05:18:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/history.php on line 83
+[21-Jan-2020 16:16:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/abstract.php on line 59
+[21-Jan-2020 16:16:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/public_html/minhaj/reviewer/abstract.php on line 59

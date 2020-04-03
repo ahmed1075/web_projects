@@ -1,0 +1,253 @@
+.bg{
+    height: auto;
+background-image: url(../images/img1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; 
+overflow-x: hidden;
+}
+label
+{
+    text-emphasis: 100;
+    color: white;
+    margin-left: 5px;
+}
+.size{
+    width: 300px;
+}
+.datso{
+    margin-top: 20px;
+}
+.logo{
+    margin: 10px;
+}
+.merge{
+    margin-left: 100px;
+    margin-right: 30px;
+}
+.head{
+    margin-left: 100px;
+    color: white;
+}
+.head1{
+    color: white;
+}
+.top{
+    margin-top: 20px;
+}
+.ca{
+    margin-top: 20px;
+    margin-left: 150px ;
+    width: 200px;
+}
+.mid{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.log{
+    margin-left: 100px;
+    color: white;
+}
+.abs{
+    margin-left: 60px;
+    color: white;
+}
+.dump{
+    margin-top: -30px;
+}
+.back{
+    text-decoration: none;
+    color: white;
+}
+.style{
+    margin-left: 450px;
+}
+.btn-style-1{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.btn-style-5{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.btn-style-3{
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 150px;
+    height: 80px;
+}
+.h3{
+    margin-left: 300px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.h2{
+    margin-left: 300px;
+    color: white;
+    padding-top: 30px;
+}
+table{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+table, th, td{
+    border: 2px solid rgb(216, 199, 49);
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+    width: 10px;
+    height: auto;
+    background: rgba(57, 143, 155, 0.7);
+}
+th{
+    color: yellow;
+    font-weight: bold;
+}
+td{
+    color: white;
+    font-weight: bold;
+}
+.btn-style-2{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+}
+.rev{
+    width: 120px;
+}
+.dash{
+    margin-left: 10px;
+}
+.restyle{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.remerge{
+    margin-left: 60px;
+}
+.mur{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.mar{
+    margin-left: 480px;
+    margin-top: -50px;
+}
+.mer{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.remer{
+    margin-left: 30px;
+}
+.topy{
+    margin-top: 200px;
+    margin-left: -50px;
+}
+.loop{
+    margin-left: 100px;;
+}
+.colo{
+    color: white;
+}
+a:hover{
+        text-decoration: none;
+        color: yellow;
+}
+a{
+    color: white;
+}
+.tomb{
+    width: 300px;
+    height: 100px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.tombo{
+    width: 300px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.btn-rev{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 175px;
+    height: 80px;
+}
+.btn-stu{
+   
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 175px;
+    height: 80px;
+}
+.btn-hub{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 175px;
+    height: 80px;
+}
+.space{
+    margin-top: 40px;
+}
+.space2{    
+    margin-top: 20px;
+   
+}
+.btn-style-6{
+    margin-left: 40px;
+}
+.morg{
+    margin-top: 20px;
+}
+.stylo{
+    margin-left: 50px;
+}
+.addspeaker{
+    margin-left:650px ;
+}
+.spek{
+    margin-left: 30%;
+}
+  .num{
+      margin-left: 10px;
+  }
+  .sign{
+      margin-top: 20px;
+      height: 50px;
+  }
+  .stylish{
+      margin-left: 300px;
+  }
+  .mainorg{
+      height: 400px;
+      width: 275px;
+  }
+  .genorg{
+      height: 140px;
+      width: 140px;
+  }
+  .datsp{
+      margin-left: 10px;
+  }
+  .speaksty{
+      width: 400px;
+      height: 300px;
+  }
+  .flowed{
+      width: 140px;
+      height: 140px;
+  }
+  .backbone{
+  background-image: linear-gradient(to right, rgba(221, 186, 27, 0.8), rgba(231, 10, 10, 0.8));
+  margin-top: 50px;
+  height: 420px;
+  margin-left: 25px;
+  }
+  .btn-style-10{
+    margin-top: 10px;
+    margin-left: 50px;
+  }
