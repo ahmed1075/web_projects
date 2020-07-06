@@ -1,0 +1,26 @@
+[02-Jul-2020 10:07:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/leadsdev/public_html/fullfill/admin/signin.php on line 16
+[02-Jul-2020 10:08:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/leadsdev/public_html/fullfill/admin/signin.php on line 16
+[02-Jul-2020 10:11:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/leadsdev/public_html/fullfill/admin/signin.php on line 16
+[03-Jul-2020 06:09:35 UTC] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 06:09:35 UTC] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 06:09:35 UTC] PHP Notice:  Undefined variable: conn in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 65
+[03-Jul-2020 06:09:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 65
+[03-Jul-2020 06:09:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 66
+[03-Jul-2020 06:09:43 UTC] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 06:09:43 UTC] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 06:09:43 UTC] PHP Notice:  Undefined variable: conn in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 65
+[03-Jul-2020 06:09:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 65
+[03-Jul-2020 06:09:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 66
+[03-Jul-2020 06:10:10 UTC] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 06:10:10 UTC] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 06:10:10 UTC] PHP Notice:  Undefined variable: conn in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 65
+[03-Jul-2020 06:10:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 65
+[03-Jul-2020 06:10:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 66
+[03-Jul-2020 06:10:13 UTC] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 06:10:13 UTC] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 06:10:13 UTC] PHP Notice:  Undefined variable: conn in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 65
+[03-Jul-2020 06:10:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 65
+[03-Jul-2020 06:10:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/leadsdev/fulfillee.com/superadmin/layout/header.php on line 66
+[03-Jul-2020 08:54:42 UTC] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[03-Jul-2020 08:54:42 UTC] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/leadsdev/fulfillee.com/superadmin/shippingcal.php on line 3
+[06-Jul-2020 06:07:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/leadsdev/fulfillee.com/superadmin/accountmanage.php on line 367
