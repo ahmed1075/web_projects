@@ -261,7 +261,6 @@ if (isset($_SESSION['email'])) {
 
                                 <br>
                                 <br>
-
                                 <div class="row table-responsive">
                                     <table class="table table-bordered" id="myTable" style="text-align:center">
                                         <thead style="background-color:#333333;color: white;font-family:raleway">
@@ -274,7 +273,8 @@ if (isset($_SESSION['email'])) {
                                         </thead>
                                         <tbody style="font-family:raleway">
                                             <?php
-                                            $sql = mysqli_query($conn, "SELECT * FROM user WHERE role='employee'");
+                                            $a=$_SESSION['id'];
+                                            $sql = mysqli_query($conn, "SELECT * FROM user WHERE client_id='$a'");
                                             while ($row = mysqli_fetch_assoc($sql)) {
                                               if($row['client_id'] == $_SESSION['id'])  {?>
                                                 <tr>
