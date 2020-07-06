@@ -15,8 +15,9 @@ if (isset($_SESSION['email'])) {
         $pass = $_POST['password'];
         $cpass = $_POST['cpassword'];
 
- $sql = mysqli_query($conn,"SELECT * from user WHERE email='$email'");
-        if($sql){
+ $sql1 = mysqli_query($conn,"SELECT * from user WHERE email='$email'");
+        $result=  mysqli_num_rows($sql1);
+        if($result){
             ?>
             <script>
                 window.alert('The Email that you Entered is Already Registered');
