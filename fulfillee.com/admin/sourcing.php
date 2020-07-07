@@ -121,69 +121,7 @@ if (isset($_SESSION['email'])) {
         </head>
 
         <body style="background-color: #eae8e8;">
-        <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        
-        
-          
-        
-        <div class="modal-body">
-         <div class="container">
-             <div class="row">
-            <div class="col-lg-12">
-                <from>
-                    <table>
-                        <tr>
-                            <td><label>Product Image</label></td>
-                            <td><input type="file"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Product Tag:</label></td>
-                            <td><input type="text" placeholder="" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Product Title:</label></td>
-                            <td><input type="text" placeholder="" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Target Price:</label></td>
-                            <td><input type="text" placeholder="" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Purchasing Type:</label></td>
-                            <td><input type="text" placeholder="" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Estimated Quantity:</label></td>
-                            <td><input type="text" placeholder="" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Sourcing URL:</label></td>
-                            <td><input type="text" placeholder="" class="form-control"></td>
-                        </tr>
-                        
-                    </table>
-                    <label>Description:</label>
-                    <textarea class="form-control
-                    "></textarea>
-                </from>
-            </div>    
-            </div>
-             
-         </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>  
-        
-        <div class="d-flex" id="wrapper">
+            <div class="d-flex" id="wrapper">
                 <!-- Sidebar -->
                 <?php include 'layout/sidebar.php'; ?>
 
@@ -204,7 +142,7 @@ if (isset($_SESSION['email'])) {
                                 <br>
                                 <button type="submit" class="btn btn-outline-dark" style="font-family:raleway"><b>Sourcing limit 0/5</b></button>
 
-                                <a type="submit" class="btn" style="background-color:#ecbe44;font-family:raleway"  data-toggle="modal" data-target="#myModal"><b>Sourcing Form</b></a>
+                                <a type="submit" class="btn" style="background-color:#ecbe44;font-family:raleway" ><b>Sourcing Form</b></a>
 
                                 <br>
                                 <br>
