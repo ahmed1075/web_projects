@@ -121,7 +121,7 @@ if (isset($_SESSION['email'])) {
         </head>
 
         <body style="background-color: #eae8e8;">
-<<<<<<< HEAD
+
         <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
@@ -184,10 +184,9 @@ if (isset($_SESSION['email'])) {
     </div>
   </div>  
         
-        <div class="d-flex" id="wrapper">
-=======
+        
             <div class="d-flex" id="wrapper">
->>>>>>> f98594dc959726dfdfefa802bfb6899086d87fea
+
                 <!-- Sidebar -->
                 <?php include 'layout/sidebar.php'; ?>
 
@@ -208,11 +207,7 @@ if (isset($_SESSION['email'])) {
                                 <br>
                                 <button type="submit" class="btn btn-outline-dark" style="font-family:raleway"><b>Sourcing limit 0/5</b></button>
 
-<<<<<<< HEAD
                                 <a type="submit" class="btn" style="background-color:#ecbe44;font-family:raleway"  data-toggle="modal" data-target="#myModal"><b>Sourcing Form</b></a>
-=======
-                                <a type="submit" class="btn" style="background-color:#ecbe44;font-family:raleway" ><b>Sourcing Form</b></a>
->>>>>>> f98594dc959726dfdfefa802bfb6899086d87fea
 
                                 <br>
                                 <br>
