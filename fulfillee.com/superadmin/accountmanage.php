@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 $_SESSION["heading"]="Account Management
 ";
@@ -16,7 +17,15 @@ if (isset($_SESSION['email'])) {
         $cpass = $_POST['cpassword'];
 
  $sql = mysqli_query($conn,"SELECT * from user WHERE email='$email'");
-        if($sql){
+ $result=  mysqli_num_rows($sql);
+// while ($row1 = mysql_fetch_array($sql)) {
+//     
+// }
+//        echo $result;
+//        var_dump($result);
+// die($email);       
+ if($result != 0){
+            
             ?>
             <script>
                 window.alert('The Email that you Entered is Already Registered');
@@ -27,13 +36,15 @@ if (isset($_SESSION['email'])) {
             
         }else{
         If ($pass == $cpass) {
-            $sql = mysqli_query($conn, "INSERT INTO user(email,password,first_name,last_name,role,shows,client_id)
+            $sql1 = mysqli_query($conn, "INSERT INTO user(email,password,first_name,last_name,role,shows,client_id)
                 VALUES('$email','$pass','$fname','$lname','co-admin','enable','$id')");
 
-            if ($sql) {
+            if ($sql1) {
                 ?>
                 <script>
                     window.alert('Client Registered Successfuly');
+                    
+                   
                     window.location.href = 'accountmanage.php';
                 </script>
                 <?php
@@ -261,7 +272,6 @@ if (isset($_SESSION['email'])) {
 
                                 <br>
                                 <br>
-
                                 <div class="row table-responsive">
                                     <table class="table table-bordered" id="myTable" style="text-align:center">
                                         <thead style="background-color:#333333;color: white;font-family:raleway">
@@ -274,7 +284,8 @@ if (isset($_SESSION['email'])) {
                                         </thead>
                                         <tbody style="font-family:raleway">
                                             <?php
-                                            $sql = mysqli_query($conn, "SELECT * FROM user WHERE role='employee'");
+                                            $a=$_SESSION['id'];
+                                            $sql = mysqli_query($conn, "SELECT * FROM user WHERE client_id='$a'");
                                             while ($row = mysqli_fetch_assoc($sql)) {
                                               if($row['client_id'] == $_SESSION['id'])  {?>
                                                 <tr>

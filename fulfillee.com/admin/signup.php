@@ -11,8 +11,9 @@ if (isset($_POST['submit'])) {
     $code = $_POST['countryCode'];
 
 
-        $sql = mysqli_query($conn,"SELECT * from user WHERE email='$email'");
-        if($sql){
+        $sql1 = mysqli_query($conn,"SELECT * from user WHERE email='$email'");
+        $result=  mysqli_num_rows($sql1);
+        if($result){
             ?>
             <script>
                 window.alert('The Email that you Entered is Already Registered');
